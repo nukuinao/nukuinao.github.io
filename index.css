@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'MyFont';
+	src: url(./851letrogo_007.ttf);
+}
+
+body{
+  font-family: Myfont;
+}
+
+
+.img{
+  text-align:center;
+}

@@ -1,0 +1,66 @@
+@font-face {
+	font-family: 'MyFont';
+	src: url(./851letrogo_007.ttf);
+}
+
+.clear{
+clear: both;
+}
+
+
+ul{
+list-style:none;
+margin:0;
+padding:0;
+}
+
+header{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+width:100%;
+height:200px;
+border:medium solid;
+background-image: url(./me.png);
+}
+
+
+
+header .header-logo {
+font-family: 'MyFont';
+padding: 10px;
+margin-bottom:0px;
+background-color:white;
+font-size: 20px;
+margin-top:40px;
+}
+
+
+nav {
+  font-family: 'MyFont';
+  margin:30px;
+  padding:5px;
+  border:medium solid;
+}
+
+.navbar  li{
+  display:block;
+  margin:10px;
+  float:left;
+}
+
+.navbar a{
+  color: black;
+}
+
+.navbar li:hover{
+    opacity:0.4;
+}
+
+
+footer{
+  width:100%;
+  height:100px;
+  border: medium solid;
+  border-color: black;
+}
